@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Covid API</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+        <h1 class="display-4">Angka Covid Hari Ini</h1>
+        <p class="lead">Data realtime.</p>
+        <p class="lead" id="last_update">-------</p>
+    </div>
+    <div class="container">
+        <div class="card-deck mb-3 text-center">
+            <div class="card mb-4 box-shadow">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Terkonfirmasi</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title" id="confirmed">-------</h1>
+                </div>
+            </div>
+            <div class="card mb-4 box-shadow">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Sembuh</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title" id="recovered">-------</h1>
+                </div>
+            </div>
+            <div class="card mb-4 box-shadow">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Meninggal</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title" id="deaths">-------</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
